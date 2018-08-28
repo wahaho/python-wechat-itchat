@@ -8,7 +8,6 @@ while True:
     username = input("请输入用户名:")
     password = input("请输入密码:")
     locked = ("三次登录错误,用户: %s 已锁" % username)
-
     if os.path.isfile('lock.log'):
         print(locked)
         break;
