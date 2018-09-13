@@ -8,3 +8,5 @@ pip install pillow
 
 pip install wordcloud
 
+
+#注意：img.jpg需要更跟运行的.py文件在同一目录下
